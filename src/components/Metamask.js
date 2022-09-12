@@ -11,7 +11,7 @@ const MetaMaskConnect = () => {
 
     const disabled = ChainId === ChainId.Mainnet
     const status = state.status
-    const address = '0xda4c3fc7C504A0E640820e45db047817cE659bCB'
+    const address = '0dd4xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxC34f' //recipient address
 
     const send = () => {
         void sendTransaction({ to: address, value: 1 })
